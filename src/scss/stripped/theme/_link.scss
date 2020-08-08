@@ -1,0 +1,15 @@
+////
+/// Link styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+a {
+	color:           $primary;
+	text-decoration: none;
+	&:hover {
+		/* Hover effect */
+		text-decoration: underline;
+	}
+}

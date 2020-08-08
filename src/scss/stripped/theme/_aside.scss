@@ -1,0 +1,21 @@
+////
+/// Aside styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+aside {
+	border:                 $border-style-aside;
+	border-radius:          $radius-xl;
+	border-top-left-radius: 0;
+	background:             white;
+	& > header {
+		border-radius: 0 $radius-xl 0 0;
+		border-bottom: $border-style-aside;
+	}
+	& > footer {
+		border-radius: 0 0 $radius-xl $radius-xl;
+		border-top: $border-style-aside;
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"project": {
+		"name": "main",
+		"version": "1.0.0"
+	},
+	"folderName" : "dist",
+	"inject"     : false,
+	"relative"   : false,
+	"clean"      : false,
+	"src": {
+		"src"    : "./src",
+		"css"    : "./src/css",
+		"scss"   : "./src/scss",
+		"js"     : "./src/js",
+		"index"  : "./src/index.html"
+	},
+	"dest": {
+		"dest"   : "./dist",
+		"css"    : "./dist/css",
+		"js"     : "./dist/js",
+		"doc"    : "./dist/doc",
+		"index"  : "./dist/index.html"
+	}
+}

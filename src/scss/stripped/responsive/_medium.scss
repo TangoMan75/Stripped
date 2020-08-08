@@ -1,0 +1,32 @@
+/// Medium screen
+
+@media (min-width: $screen-md) {
+
+	/* Typography */
+	@include type-scale($font-size-base, $major-third);
+	@include typography();
+
+	/* Layout */
+	body > header:first-of-type,
+	body > main {
+		width: 80%;
+	}
+
+	body > *,
+	main > * 
+	nav > * {
+		width  : 90%;
+		margin : auto;
+	}
+
+	body > header:first-of-type,
+	body > main,
+	body > section,
+	body > main > section {
+		margin-bottom: $margin-xl;
+	}
+
+	article, aside, hr {
+		margin-bottom: $margin-lg;
+	}
+}

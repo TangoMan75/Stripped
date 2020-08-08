@@ -1,0 +1,214 @@
+////
+/// Multi Step
+/// @version 1.0.0
+////
+
+// Responsive multi-step breadcrumb
+.multi-step {
+	/* add numbers for each link with CSS counters */
+	/* "step" is the name of the counter */
+	/* defined with counter-reset in parent element */
+	counter-reset: step;
+
+	@media (max-width: 575px) {
+		font-size: 0;
+		line-height: 0;
+	}
+
+	ul,
+	ol {
+		margin-bottom: 0;
+		list-style: none;
+		display: inline;
+	}
+
+	li {
+		display: inline-block;
+
+		&:not(:first-child) {
+			/* avoid white pixels to show next to arrow */
+			margin-left: -5px;
+		}
+
+		&:first-child a {
+			border-radius: 5px 0 0 5px;
+
+			@media (min-width: 575px) {
+				/* first link don't have arrow */
+				padding-left: 3rem;
+
+				&::before {
+					left: 1rem;
+				}
+			}
+
+			@media (min-width: 768px) {
+				padding-left: 4rem;
+			}
+
+			@media (min-width: 992px){
+				padding-left: 5rem;
+			}
+		}
+
+		&:last-child a {
+			border-radius: 0 5px 5px 0;
+
+			&::after {
+				/* no arrow after last link */
+				content: none;
+			}
+		}
+	}
+
+	a {
+		position: relative;
+
+		display: block;
+
+		min-width: 5rem;
+		padding: 0;
+
+		transition: all .5s;
+		white-space: nowrap;
+		text-decoration: none;
+
+		color: $primary;
+		border: 1px solid darkgray;
+		outline: none;
+
+		&::before {
+			font-size: 1.5rem;
+			font-weight: bold;
+			line-height: 3rem;
+
+			position: absolute;
+			z-index: 1;
+			top: -1.5rem;
+			left: 1rem;
+
+			width: 3rem;
+
+			/* we will use the :before element to show numbers */
+			content: counter(step);
+			counter-increment: step;
+			transition: all .5s;
+
+			color: darkgrey;
+			border: 1px solid darkgrey;
+			border-radius: 100%;
+			background: white;
+		}
+
+		&.active,
+		&:hover {
+			/* hover/active styles */
+			color: white;
+
+			background: $primary;
+
+			&::after {
+				background: $primary;
+			}
+
+			@media (max-width: 575px) {
+				&::before {
+					color: white;
+					background: $primary;
+				}
+			}
+		}
+
+		@media (min-width: 575px) {
+			font-size: .75rem;
+			line-height: 1.5rem;
+
+			/* need more margin on the left of links to accomodate numbers */
+			padding: 0 2rem 0 4rem;
+
+			&::before {
+				font-size: .75rem;
+				line-height: 1.5rem;
+
+				position: absolute;
+				z-index: 1;
+				top: -1px;
+				left: 1.5rem;
+
+				width: 1.5rem;
+			}
+
+			&::after {
+				/* adding arrows with rotated pseudo elements */
+				position: absolute;
+				z-index: 1;
+				top: 3px;
+				right: -9px;
+
+				width: 17px;
+				height: 17px;
+
+				content: '';
+				transition: all .5s;
+				transform: rotate(45deg);
+
+				border-top: 1px solid darkgrey;
+				border-right: 1px solid darkgrey;
+				border-radius: 0 5px 0 100%;
+				background: white;
+			}
+		}
+
+		@media (min-width: 768px){
+			font-size: 1rem;
+			line-height: 2rem;
+
+			/* need more margin on the left of links to accomodate numbers */
+			padding: 0 2rem 0 5rem;
+
+			&::before {
+				font-size: 1rem;
+				line-height: 2rem;
+
+				top: -1px;
+				left: 2rem;
+
+				width: 2rem;
+			}
+
+			&::after {
+				top: 4px;
+				right: -13px;
+
+				width: 23px;
+				height: 23px;
+			}
+		}
+
+		@media (min-width: 992px){
+			font-size: 20px;
+			line-height: 40px;
+
+			/* need more margin on the left of links to accomodate numbers */
+			padding: 0 3rem 0 6rem;
+
+			&::before {
+				font-size: 20px;
+				line-height: 40px;
+
+				top: -1px;
+				left: 2rem;
+
+				width: 40px;
+			}
+
+			&::after {
+				top: 5px;
+				right: -15px;
+
+				width: 29px;
+				height: 29px;
+			}
+		}
+	}
+}

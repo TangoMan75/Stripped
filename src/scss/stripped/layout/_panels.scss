@@ -1,0 +1,18 @@
+////
+/// Panels layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Panels layout
+ */
+section {
+	@include panel($radius-lg);
+}
+
+article,
+aside {
+	@include panel($radius-sm);
+}

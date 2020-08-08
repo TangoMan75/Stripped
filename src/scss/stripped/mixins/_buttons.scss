@@ -1,0 +1,42 @@
+////
+/// Buttons
+///
+/// Defines button design
+/// @version 0.1.1
+/// @group Mixins
+////
+
+@mixin button($color, $background) {
+	/* Resets buttons font-size & line-height */
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+
+	color: $color;
+	background-color: $background;
+
+	&:hover {
+		background-color: darken($background, 10%);
+		cursor: pointer;
+	}
+
+	&:focus {
+		background-color: darken($background, 10%);
+	}
+
+	&:active {
+		background-color: darken($background, 10%);
+
+		&:hover,
+		&:focus {
+		background-color: darken($background, 17%);
+		}
+	}
+
+	&[disabled] {
+		opacity: 0.65;
+		&:hover,
+		&:focus {
+			cursor: not-allowed;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+////
+/// Scroll Top
+/// @version 0.1.0
+////
+
+// Responsive scroll-top button
+@media (min-width: 576px) {
+	#scroll-top {
+		bottom: 2em !important;
+		right: 2em !important;
+	}
+}

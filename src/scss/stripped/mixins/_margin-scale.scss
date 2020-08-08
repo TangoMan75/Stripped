@@ -1,0 +1,17 @@
+////
+/// Margin scale
+///
+/// Sets global margins values
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin margin-scale($margin-base, $scale) {
+	$margin-md:  $margin-base !global;
+	$margin-sm:  $margin-md / $scale !global;
+	$margin-xs:  $margin-sm / $scale !global;
+	$margin-xxs: $margin-xs / $scale !global;
+	$margin-lg:  $margin-md * $scale !global;
+	$margin-xl:  $margin-lg * $scale !global;
+	$margin-xxl: $margin-xl * $scale !global;
+}

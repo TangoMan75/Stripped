@@ -1,0 +1,99 @@
+////
+/// Colors
+///
+/// Add here your color palettes, DO NOT CHANGE color values directly !
+/// If you want to change some element's color go in the styling sections.
+/// 
+/// @group Variables
+/// @version 0.1.1
+////
+
+/// Boostrap 3 brand colors
+//--------------------------------------------------
+
+$primary: darken(#428bca, 6.5%); // #337ab7 // Curious Blue
+$success: #5cb85c;  // Fern
+$info:    #5bc0de;  // Malibu
+$warning: #f0ad4e;  // Casablanca
+$danger:  #d9534f;  // Valencia
+
+$active: #286090;  // Endeavour
+// $disabled: opacity(.65);
+$default: #e6e6e6;  // Whisper
+
+/// Social media brand colors
+//--------------------------------------------------
+
+$bitbucket:        #0052cc; // rgb(0, 82, 204);
+$codepen:          #47cf73; // rgb(71, 207, 115);
+$discord:          #7289da; // rgb(114, 137, 218);
+$dribble:          #ea4c89; // rgb(234, 76, 137);
+$dropbox:          #007ee5; // rgb(0, 126, 229);
+$facebook:         #3b5998; // rgb(59, 89, 152);
+$gitlab:           #fa7035; // rgb(250, 112, 53);
+$google:           #4285f4; // rgb(66, 133, 244);
+$instagram:        #e95950; // rgb(233, 89, 80);
+$linkedin:         #0077b5; // rgb(0, 119, 181);
+$openclassrooms:   #7451eb; // rgb(116, 81, 235);
+$pocket:           #ef4056; // rgb(239, 64, 86);
+$reddit:           #ff4500; // rgb(255, 69, 0);
+$rss:              #ff6600; // rgb(255, 102, 0);
+$skype:            #00aff0; // rgb(0, 175, 240);
+$slack:            #400d40; // rgb(64, 13, 64);
+$snapchat:         #fffc00; // rgb(255, 252, 0);
+$telegram:         #0088cc; // rgb(0, 136, 204);
+$twitter:          #1da1f2; // rgb(29, 161, 242);
+$udemy:            #ec5252; // rgb(236, 82, 82);
+$vk:               #45668e; // rgb(69, 102, 142);
+$whatsapp:         #4dc247; // rgb(77, 194, 71);
+$youtube:          #ff0000; // rgb(255, 0, 0);
+
+/// Bright colors
+//--------------------------------------------------
+
+$bright-green: #3fb911;  // Kelly Green
+$green:        #94c20d;  // Citrus
+$yellow-green: #a2a429;  // Lucky
+$yellow:       #d9b125;  // Gold Tips
+$orange:       #f17d3e;  // Pizazz
+$red:          #d8624c;  // Flamingo
+$blue:         #1081c1;  // Bondi Blue
+$pink:         #ff69b4;  // Hot Pink
+$light-pink:   #f9f2f4;  // Lavender Blush
+$dark-pink:    #c7254e;  // Old Rose
+$purple:       #604688;  // Daisy Bush
+
+/// Dark colors
+//--------------------------------------------------
+
+$baker-choco: #663606;  // Baker's Choco
+$barossa:     #553344;  // Barossa
+$haiti:       #2a2730;  // Haiti
+
+/// Bootstrap gray
+//--------------------------------------------------
+
+$gray-base: #000;
+$gray-darker:  lighten($gray-base, 13.5%); // #222  // Nero
+$gray-dark:    lighten($gray-base, 20%);   // #333  // Night Rider
+$gray:         lighten($gray-base, 33.5%); // #555  // Matterhorn
+$gray-light:   lighten($gray-base, 46.7%); // #777  // Grey
+$gray-lighter: lighten($gray-base, 93.5%); // #eee  // Whisper
+
+/// Gray
+//--------------------------------------------------
+
+$nero:            lighten($gray-base, 13.5%);  // #222     // Nero
+$night-rider:     lighten($gray-base, 20%);    // #333     // Night Rider
+$matterhorn:      lighten($gray-base, 33.5%);  // #555     // Matterhorn
+$dim-gray:        lighten($gray-base, 40%);    // #666     // Dim Gray
+$grey:            lighten($gray-base, 46.7%);  // #777     // Grey
+$nobel:           lighten($gray-base, 61%);    // #9c9c9c  // Nobel
+$very-light-grey: lighten($gray-base, 80%);    // #ccc     // Very Light Grey
+$whisper:         lighten($gray-base, 93.5%);  // #eee     // Whisper
+$whitesmoke:      lighten($gray-base, 96%);    // #f5f5f5  // White Smoke
+
+/// Input colors
+//--------------------------------------------------
+
+$glow-color: rgba(102, 175, 233, 0.6);  // #66a5e9  // Cornflower Blue

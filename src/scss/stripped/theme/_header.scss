@@ -1,0 +1,17 @@
+////
+/// Header styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+body > header:first-of-type {
+	& > img:first-of-type {
+		/* Logo styling */
+		border-radius: 50%;
+	}
+	& > h1:first-of-type {
+		/* Title styling */
+		color: $primary;
+	}
+}

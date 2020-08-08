@@ -1,0 +1,50 @@
+////
+/// Typography
+///
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin typography() {
+	body {
+		font-size: $font-size-md;
+	}
+
+	kbd,
+	small,
+	sub,
+	sup {
+		font-size: $font-size-sm;
+	}
+
+	code,
+	kbd,
+	pre,
+	samp {
+		font-size: $font-size-md;
+	}
+
+	h1 {
+		font-size: $font-size-xxl;
+	}
+
+	h2 {
+		font-size: $font-size-xl;
+	}
+
+	h3 {
+		font-size: $font-size-lg;
+	}
+
+	h4 {
+		font-size: $font-size-md;
+	}
+
+	h5 {
+		font-size: $font-size-md;
+	}
+
+	h6 {
+		font-size: $font-size-md;
+	}
+}

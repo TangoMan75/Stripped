@@ -1,0 +1,24 @@
+////
+/// code layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Code layout
+ */
+code {
+	padding : $padding-xxs $padding-xs;
+}
+
+/// Code contained inside pre
+pre code {
+	padding          : 0;
+	font-size        : inherit;
+	color            : inherit;
+	/* Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks. */
+	white-space      : pre-wrap;
+	background-color : transparent;
+	border-radius    : 0;
+}

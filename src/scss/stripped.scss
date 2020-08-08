@@ -1,0 +1,124 @@
+/**
+ * Stripped
+ * ========
+ *
+ * Responsive Mobile-First SASS / CSS Micro Framework Without Classes
+ * ------------------------------------------------------------------
+ *
+ * @author     "Matthias Morin" <matthias.morin@gmail.com>
+ * @license    MIT
+ * @copyright  2020 Matthias Morin
+ */
+
+// **************************************************
+// Mixins
+// **************************************************
+
+@import "stripped/mixins/_buttons";
+@import "stripped/mixins/_groups";
+@import "stripped/mixins/_kbd";
+@import "stripped/mixins/_margin-scale";
+@import "stripped/mixins/_padding-scale";
+@import "stripped/mixins/_panels";
+@import "stripped/mixins/_radius-scale";
+@import "stripped/mixins/_type-scale";
+@import "stripped/mixins/_typography";
+@import "stripped/mixins/_wrapper";
+
+// **************************************************
+// Variables
+// **************************************************
+
+@import "stripped/variables/_colors";
+@import "stripped/variables/_scales";
+@import "stripped/variables/_typography";
+
+@import "stripped/variables/_borders";
+@import "stripped/variables/_breakpoints";
+@import "stripped/variables/_margins";
+@import "stripped/variables/_padding";
+@import "stripped/variables/_radiuses";
+@import "stripped/variables/_shadows";
+
+/**************************************************
+ * Layout
+ **************************************************/
+
+@import "stripped/layout/_main";
+
+@import "stripped/layout/_blocks";
+@import "stripped/layout/_code";
+@import "stripped/layout/_footer";
+@import "stripped/layout/_forms";
+@import "stripped/layout/_header";
+@import "stripped/layout/_navigation";
+@import "stripped/layout/_panels";
+@import "stripped/layout/_pre";
+@import "stripped/layout/_table";
+
+/**************************************************
+ * Theme
+ **************************************************/
+
+@import "stripped/theme/_abbr";
+@import "stripped/theme/_article";
+@import "stripped/theme/_aside";
+@import "stripped/theme/_blockquote";
+@import "stripped/theme/_buttons";
+@import "stripped/theme/_code";
+@import "stripped/theme/_fieldset";
+@import "stripped/theme/_figcaption";
+@import "stripped/theme/_footer";
+@import "stripped/theme/_h";
+@import "stripped/theme/_header";
+@import "stripped/theme/_hr";
+@import "stripped/theme/_input";
+@import "stripped/theme/_kbd";
+@import "stripped/theme/_link";
+@import "stripped/theme/_lists";
+@import "stripped/theme/_mark";
+@import "stripped/theme/_navigation";
+@import "stripped/theme/_pre";
+@import "stripped/theme/_section";
+@import "stripped/theme/_table";
+@import "stripped/theme/_typography";
+
+// **************************************************
+// Extra / Mixins
+// **************************************************
+
+@import "extra/mixins/_flex-grid";
+@import "extra/mixins/_grid";
+@import "extra/mixins/_unselectable";
+
+/**************************************************
+ * Extra / Grid Layout
+ **************************************************/
+
+@import "extra/layout/_grid";
+
+/**************************************************
+ * Extra / Animations
+ **************************************************/
+
+@import "extra/animations/_fadein";
+@import "extra/animations/_fadeout";
+@import "extra/animations/_from-left";
+@import "extra/animations/_from-right";
+@import "extra/animations/_intoview";
+@import "extra/animations/_widen";
+
+/**************************************************
+ * Extra / Goodies
+ **************************************************/
+
+@import "extra/multi-step/_multi-step";
+@import "extra/scroll-top/_scroll-top";
+
+/**************************************************
+ * Responsive
+ **************************************************/
+
+/*@import "stripped/responsive/_small";*/
+/*@import "stripped/responsive/_medium";*/
+/*@import "stripped/responsive/_large";*/

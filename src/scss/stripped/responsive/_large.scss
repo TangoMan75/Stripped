@@ -1,0 +1,22 @@
+/// Large screen
+
+@media (min-width: $screen-lg) {
+
+	/* Typography */
+	@include type-scale($font-size-base, $perfect-fourth);
+	@include typography();
+
+	/* Layout */
+	body > header:first-of-type,
+	body > nav,
+	body > main {
+		width: 75%;
+	}
+
+	body > *,
+	main > * 
+	nav > * {
+		width  : 85%;
+		margin : auto;
+	}
+}

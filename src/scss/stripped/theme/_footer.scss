@@ -1,0 +1,29 @@
+////
+/// Footer styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+body > footer:last-of-type,
+body > div:first-of-type > footer:last-of-type {
+	background-color: $haiti;
+	color: $gray;
+	& > * {
+		/* Footer items styling */
+		border-left: $border-style-footer;
+	}
+	& ul {
+		/* List items styling in footer */
+		list-style: none;
+	}
+	& a {
+		/* Link styling in footer */
+	text-decoration: none;
+	color: white;
+		&:hover {
+			/* Hover effect on footer links */
+			text-decoration: underline;
+		}
+	}
+}

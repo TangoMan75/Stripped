@@ -1,0 +1,11 @@
+////
+/// abbr (abreviation) styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+abbr {
+	color: $primary;
+	border-bottom: $border-style-abbr;
+}

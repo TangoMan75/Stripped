@@ -1,0 +1,24 @@
+////
+/// Table layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Table layout
+ */
+table {
+	border-collapse : collapse;
+	border-spacing  : 0;
+	max-width       : 100%;
+	text-align      : center;
+	margin          : $margin-sm auto;
+}
+
+/* Table cells layout */
+table th,
+table td {
+	padding        : $padding-xs;
+	vertical-align : middle;
+}

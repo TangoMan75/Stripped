@@ -1,0 +1,98 @@
+////
+/// Small screen
+/// @group Responsive
+/// @version 0.1.0 beta
+////
+
+@media (min-width: $screen-sm) {
+
+	/* Typography */
+	@include type-scale($font-size-base, $major-second);
+	@include typography();
+
+	/* Containers Layout */
+	body {
+		padding-top: $margin-sm;
+		& > main,
+		& > nav,
+		& > header:first-of-type {
+			width     : 90%;
+			max-width : 90%;
+		}
+	}
+
+	body > *,
+	main > * 
+	nav > * {
+		max-width : 95%;
+		margin    : auto;
+	}
+
+	body > header:first-of-type,
+	body > main,
+	body > section,
+	body > main > section {
+		margin-bottom: $margin-lg;
+	}
+
+	hr {
+		margin-bottom: $margin-md;
+	}
+
+	/* Centered header content */
+	body > header:first-of-type {
+		flex-direction  : row;
+		flex-wrap       : wrap;
+		justify-content : space-around;
+	}
+
+	body > header:first-of-type > * {
+		margin: auto;
+	}
+
+	/**
+	 * Responsive nav menu
+	 */
+
+	/* List items layout in header navs */
+	body > header:first-of-type > nav ul,
+	body > nav > ul {
+		display         : flex;
+		flex-direction  : row;
+		flex-wrap       : wrap;
+		justify-content : center;
+		& > li {
+			@include group-horizontal($radius-md);
+		}
+	}
+
+///	/* No space between two adjacent items */
+///	body > header:first-of-type > nav > ul > li + li,
+///	body > nav > ul > li + li {
+///		margin-left : -1px;
+///		margin-top  : 0;
+///	}
+
+///	/* Horizontal nav tabs border radius */
+///	body > header:first-of-type > nav > ul > li:first-child,
+///	body > header:first-of-type > nav > ul > li:first-child {
+///		border-radius: $radius-md 0 0 $radius-md;
+///	}
+
+///	body > header:first-of-type > nav > ul > li:last-child,
+///	body > header:first-of-type > nav > ul > li:last-child {
+///		border-radius: 0 $radius-md $radius-md 0;
+///	}
+
+	/**
+	 * Responsive footer
+	 */
+	body > footer:last-of-type {
+		flex-direction : row;
+	}
+
+	body > footer:last-of-type p {
+		flex-direction : row;
+		max-width      : 15em;
+	}
+}

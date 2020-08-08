@@ -1,0 +1,29 @@
+////
+/// Buttons styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+/**
+ * Buttons
+ */
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+button[type='button'],
+button[type='submit'],
+button[type='reset'] {
+	border-radius : $radius-md;
+}
+
+input[type='button'],
+input[type='submit'],
+button {
+	@include button(white, $primary);
+}
+
+input[type='reset'],
+button[type='reset'] {
+	@include button(white, $danger);
+}

@@ -1,0 +1,24 @@
+////
+/// Section styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+section {
+	background: $whitesmoke;
+}
+
+section > header,
+section > footer {
+	background: $whisper;
+}
+
+section > header {
+	background: $primary;
+	color: white;
+}
+
+section > header * {
+	color: white;
+}

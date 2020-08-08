@@ -1,0 +1,16 @@
+////
+/// Blocks layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Blocks layout
+ */
+article,
+blockquote,
+hr,
+section {
+	margin: $margin-xxl auto;
+}

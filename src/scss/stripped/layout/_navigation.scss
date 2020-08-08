@@ -1,0 +1,50 @@
+////
+/// Navigation bar layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Navigation menu layout
+ */
+nav:first-of-type {
+	/* Menu layout if more that one */
+	display         : flex;
+	flex-wrap       : wrap;
+	justify-content : space-around;
+	width           : 100%;
+	text-align      : center;
+	& > * {
+		margin-bottom: $margin-md;
+	}
+
+	& ul {
+		/* Menu items layout */
+		display        : flex;
+		flex-direction : column;
+
+		/* Resets ul default styling */
+		list-style : none;
+		padding    : 0;
+
+		& li {
+
+			@include group-vertical($radius-md);
+
+			& > * {
+				/* Any direct child element has padding */
+				padding : $padding-xs $padding-xxl;
+				/* ...is unselectable */
+				user-select : none;
+				/* ...and has no margin */
+				margin: 0;
+			}
+
+			& a {
+				/* Displays links as block */
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+////
+/// Fade in
+///
+/// @group Animations
+/// @version 0.1.1
+////
+
+.fadein {
+	animation: 2s ease-out forwards fadein;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,59 @@
+////
+/// Forms layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Forms Layout
+ */
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="keygen"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="phone"],
+input[type="range"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select {
+	display   : block;
+	height    : $margin-xxl *2.5;
+	width     : 100%;
+	padding   : $padding-xs $padding-sm;
+	margin    : $margin-xs auto;
+}
+
+textarea {
+	width   : 100%;
+	padding : $padding-xs $padding-sm;
+	/* Disables horizontal resize */
+	resize  : vertical;
+}
+
+button,
+button[type='button'],
+button[type='reset'],
+button[type='submit'],
+input[type='button'],
+input[type='reset'],
+input[type='submit']{
+	border-style : none;
+	outline      : none;
+	padding      : $padding-xs $padding-xxl;
+	margin       : $margin-xxs auto;
+}
+
+fieldset * {
+	margin : auto;
+}

@@ -1,0 +1,41 @@
+////
+/// Groups
+///
+/// @group Mixins
+/// @version 0.1.0
+////
+
+@mixin group-horizontal($radius) {
+	&:not(:first-child) {
+		/* Collapses double border between items */
+		margin-top: 0px;
+		margin-left: -1px;
+	}
+	&:first-child,
+	&:first-child * {
+		/* Border radiuses (horizontal) first-child */
+		border-radius: $radius 0 0 $radius;
+	}
+	&:last-child,
+	&:last-child * {
+		/* Border radiuses (horizontal) last-child */
+		border-radius: 0 $radius $radius 0;
+	}
+}
+
+@mixin group-vertical($radius) {
+	&:not(:first-child) {
+		/* Collapses double border between items */
+		margin-top: -1px;
+	}
+	&:first-child,
+	&:first-child * {
+		/* Border radiuses (vertical) first-child */
+		border-radius: $radius $radius 0 0;
+	}
+	&:last-child,
+	&:last-child * {
+		/* Border radiuses (vertical) last-child */
+		border-radius: 0 0 $radius $radius;
+	}
+}

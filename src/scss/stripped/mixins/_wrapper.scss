@@ -1,0 +1,19 @@
+////
+/// Wrapper
+///
+/// @group Mixins
+/// @version 0.1.0
+////
+
+@mixin wrapper($size) {
+	.wrapper,
+	body > header:first-of-type,
+	body > main,
+	body > nav {
+		$wrapper-width: (100% / 12 * $size);
+		width:          $wrapper-width;
+		max-width:      $wrapper-width;
+		margin-left:    auto;
+		margin-right:   auto;
+	}
+}

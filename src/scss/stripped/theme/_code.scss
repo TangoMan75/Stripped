@@ -1,0 +1,16 @@
+////
+/// code styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+/**
+ * code
+ */
+code {
+	font-size:        $font-size-sm;
+	color:            $dark-pink;
+	background-color: $light-pink;
+	border-radius:    $radius-xxs;
+}

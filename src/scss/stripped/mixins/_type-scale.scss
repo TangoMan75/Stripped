@@ -1,0 +1,17 @@
+////
+/// Type scale
+///
+/// Sets global font-sizes values
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin type-scale($font-size-base, $scale) {
+	$font-size-md:  $font-size-base !global;
+	$font-size-sm:  $font-size-md / $scale !global;
+	$font-size-xs:  $font-size-sm / $scale !global;
+	$font-size-xxs: $font-size-xs / $scale !global;
+	$font-size-lg:  $font-size-md * $scale !global;
+	$font-size-xl:  $font-size-lg * $scale !global;
+	$font-size-xxl: $font-size-xl * $scale !global;
+}

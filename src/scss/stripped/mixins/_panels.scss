@@ -1,0 +1,66 @@
+////
+/// Panels
+///
+/// @group Mixins
+/// @version 0.1.0
+////
+
+/**
+ * Place a Section, or article, or aside containing a header or footer and it will be displayed as a panel.
+ */
+@mixin panel($border-radius) {
+	border-radius: $border-radius;
+	text-align: center;
+	margin-bottom: $margin-sm;
+	/* Prevents margin collapsing and allows for scrollbar */
+	overflow: auto;
+	/* Centers panel block elements and sets margin */
+	& > article,
+	& > aside,
+	& > blockquote,
+	& > details,
+	& > div,
+	& > dl,
+	& > fieldset,
+	& > figure,
+	& > form,
+	& > h1,
+	& > h2,
+	& > h3,
+	& > h4,
+	& > h5,
+	& > h6,
+	& > img,
+	& > ol,
+	& > p,
+	& > section,
+	& > summary,
+	& > table,
+	& > ul {
+		margin: $margin-sm auto;
+		max-width: 99%;
+	}
+	& > header:first-of-type {
+		border-radius: $border-radius $border-radius 0 0;
+		/* Prevents header from collapsing when parent has display flex */
+		min-width: 100%;
+	}
+	& > header:first-of-type,
+	& > footer:last-of-type {
+		text-align: center;
+		padding: $padding-xxl;
+		& > * {
+			margin: auto;
+		}
+	}
+	& > header:first-of-type + footer:last-of-type {
+		/* Avoids double margin when a footer follows a header inside panel */
+		margin-top: -1px;
+	}
+	& footer:last-of-type {
+		border-radius: 0 0 $border-radius $border-radius;
+		font-size: $font-size-sm;
+		/* Prevents footer from collapsing when parent has display flex */
+		min-width: 100%;
+	}
+}

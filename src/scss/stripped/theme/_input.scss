@@ -1,0 +1,40 @@
+////
+/// Input styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="keygen"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="phone"],
+input[type="range"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+	border:        $border-style-default;
+	border-radius: $radius-md;
+	color:         $gray;
+	&:focus {
+		border:     $border-style-input;
+		box-shadow: $glow;
+		outline:    none;
+	}
+}
+
+input[type="file"] {
+	background-color: white;
+}

@@ -1,0 +1,17 @@
+////
+/// Padding scale
+///
+/// Sets global padding values
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin padding-scale($padding-base, $scale) {
+	$padding-md:  $padding-base !global;
+	$padding-sm:  $padding-md / $scale !global;
+	$padding-xs:  $padding-sm / $scale !global;
+	$padding-xxs: $padding-xs / $scale !global;
+	$padding-lg:  $padding-md * $scale !global;
+	$padding-xl:  $padding-lg * $scale !global;
+	$padding-xxl: $padding-xl * $scale !global;
+}

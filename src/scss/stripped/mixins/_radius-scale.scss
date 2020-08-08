@@ -1,0 +1,17 @@
+////
+/// Radius scale
+///
+/// Sets global radiuses values
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin radius-scale($radius-base, $scale) {
+	$radius-xxl: $radius-base !global;
+	$radius-xl:  $radius-xxl / $scale !global;
+	$radius-lg:  $radius-xl / $scale !global;
+	$radius-md:  $radius-lg / $scale !global;
+	$radius-sm:  $radius-md / $scale !global;
+	$radius-xs:  $radius-sm / $scale !global;
+	$radius-xxs: $radius-xs / $scale !global;
+}

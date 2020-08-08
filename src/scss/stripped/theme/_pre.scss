@@ -1,0 +1,16 @@
+////
+/// pre styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+/**
+ * pre
+ */
+pre {
+	border:           $border-style-default;
+	border-left:      $border-style-pre;
+	background-color: $whisper;
+	border-radius:    0 $radius-sm $radius-sm 0;
+}

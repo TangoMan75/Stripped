@@ -1,0 +1,16 @@
+////
+/// Parallax
+///
+/// @group Animations
+/// @version 0.1.0
+////
+
+.parallax {
+	background-attachment: fixed;
+	background-position  : 50% 50%;
+	background-repeat    : no-repeat;
+	background-size      : cover;
+	margin               : 0 auto;
+	min-height           : 50vh;
+	width                : 100%;
+}

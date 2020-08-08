@@ -1,0 +1,38 @@
+////
+/// Table styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+table {
+	border: $border-style-default;
+
+	& caption {
+		font-weight: bold;
+		color: $primary;
+	}
+
+	& th {
+		font-weight: bold;
+		color: $matterhorn;
+	}
+
+	& th,
+	& td {
+		border: $border-style-default;
+	}
+
+	& thead,
+	& tfoot {
+		background-color: $whitesmoke;
+	}
+
+	& tfoot {
+		font-size: $font-size-sm;
+		font-weight: $font-weight;
+		& td {
+			color: $matterhorn;
+		}
+	}
+}

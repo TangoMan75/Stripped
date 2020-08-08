@@ -1,0 +1,24 @@
+////
+/// Blockquote styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+blockquote {
+	&::before,
+	&::after {
+		color:       $primary;
+		font-size:   $font-size-xxl;
+		font-weight: bold;
+	}
+	&::before {
+		content: "“";
+		float: left;
+	}
+	&::after {
+		content: "”";
+		float: right;
+		clear: both;
+	}
+}

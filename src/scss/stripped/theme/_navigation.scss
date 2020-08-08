@@ -1,0 +1,42 @@
+////
+/// Navigation menu styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+/**
+ * Navigation menu Styling
+ */
+nav > ul > li {
+	border:           $border-style-default;
+	background-color: white;
+	box-shadow:       $shadow;
+
+	&:first-child > p {
+		/* Place menu label inside p to display correctly */
+		font-weight:      bold;
+		color:            $dim-gray;
+		background-color: $whitesmoke;
+
+		&:hover {
+			background-color: $whisper;
+		}
+
+		& a {
+			font-weight: bold;
+			color: $primary;
+		}
+	}
+
+	& p {
+		color: $dim-gray;
+	}
+
+	& > a {
+		/* Menu links */
+		text-decoration: none;
+		color: $primary;
+		@include button($primary, white);
+	}
+}

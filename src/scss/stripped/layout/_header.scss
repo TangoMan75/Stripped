@@ -1,0 +1,26 @@
+////
+/// Header layout
+///
+/// @version 0.1.0
+/// @group Layout
+////
+
+/**
+ * Header layout
+ */
+body {
+	& div:first-of-type > header:first-of-type,
+	& > header:first-of-type {
+		display         : flex;
+		flex-direction  : column;
+		/* Flex-box vertical alignment */
+		align-items     : center;
+		text-align      : center;
+		justify-content : space-around;
+		& > * {
+			/* Every header child has margin */
+			max-width: 99%;
+			margin : $margin-xs auto;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+////
+/// kbd
+///
+/// Defines kbd style
+/// @version 0.1.0
+/// @group Mixins
+////
+
+@mixin kbd($color, $background) {
+	/* Resets buttons font-size & line-height */
+	font-size:     $font-size-xxs;
+	line-height:   $line-height-base;
+	padding:       2px 8px 4px 4px;
+	color:         $color;
+	background:    linear-gradient(to top left, lighten($background, 10%), $background);
+	border-radius: $radius-sm;
+	border-top:    2px solid lighten($background, 25%);
+	border-left:   3px solid lighten($background, 10%);
+	border-bottom: 5px solid darken($background, 8%);
+	border-right:  4px solid darken($background, 3%);
+	box-shadow:    $shadow-kbd
+}

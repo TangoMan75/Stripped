@@ -1,0 +1,9 @@
+////
+/// Radiuses
+///
+/// Loading default border radiuses
+/// @group Variables
+/// @version 0.1.0
+////
+
+@include radius-scale($font-size-base, $major-second);

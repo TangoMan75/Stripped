@@ -1,0 +1,20 @@
+////
+/// Typography
+/// Setting default typography variables for mobiles
+/// @group Variables
+/// @version 0.1.0
+////
+
+$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:      Georgia, "Times New Roman", Times, serif;
+$monospace:  Menlo, Monaco, Consolas, "Courier New", monospace;
+$noto:       "Noto Sans", sans-serif;
+$roboto:     Roboto, sans-serif;
+$ubuntu:     Ubuntu, sans-serif;
+
+$font-weight: 400;
+$line-height-base: 160%;
+
+$font-size-base: 1em;
+
+@include type-scale($font-size-base, $major-second);

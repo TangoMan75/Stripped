@@ -1,0 +1,49 @@
+////
+/// Footer layout
+///
+/// @version 0.2.0
+/// @group Layout
+////
+
+/**
+ * Allows to maintain footer at the bottom of the page
+ */
+body {
+	position: relative;
+	min-height: 100vh;
+
+	> footer:last-of-type {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+/**
+ * Footer layout
+ */
+body > footer:last-of-type {
+	display         : flex;
+	flex-direction  : column;
+	flex-wrap       : wrap;
+	justify-content : space-around;
+	padding         : $padding-xxl 0;
+	width           : 100%;
+	max-width       : 100%;
+
+	> * {
+		/* Footer items margin */
+		margin  : $margin-sm;
+		padding : 0 0 0 $padding-sm;
+		p {
+			/* Footer p layout */
+			margin: 0;
+		}
+	}
+
+	& ul {
+		/* List items layout in footer */
+		padding : 0;
+		margin  : 0;
+	}
+}

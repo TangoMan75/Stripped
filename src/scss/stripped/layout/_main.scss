@@ -1,0 +1,52 @@
+////
+/// Main layout
+///
+/// @group Layout
+/// @version 0.1.0
+////
+
+/**
+ * Main Layout
+ */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	/* Resets body default margin */
+	margin: 0;
+}
+
+/**
+ * Wrapper Layout
+ */
+.wrapper,
+body > header:first-of-type,
+body > main,
+body > nav {
+	width        : 100%;
+	max-width    : 100%;
+	margin-left  : auto;
+	margin-right : auto;
+	& > * {
+		max-width    : 95%;
+		margin-left  : auto;
+		margin-right : auto;
+	}
+}
+
+@media (min-width: $screen-xs +1) {
+	@include wrapper(11); /// 91.667%
+}
+
+@media (min-width: $screen-sm +1) {
+	@include wrapper(10); /// 83.333%
+}
+
+@media (min-width: $screen-md +1) {
+	@include wrapper(9); /// 75%
+}
+
+@media (min-width: $screen-lg +1) {
+	@include wrapper(8); /// 66.667%
+}

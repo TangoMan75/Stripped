@@ -1,0 +1,28 @@
+////
+/// Flex grid
+///
+/// @group Mixins
+/// @version 0.5.1 beta
+/// @last-modified 12:44 20/09/2016
+////
+
+@mixin flex-grid($max-width, $align) {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	/* Flex-box vertical alignment */
+	align-items: $align;
+	/* Multiline vertical alignment */
+	align-content: $align;
+	justify-content: space-around;
+	& > * {
+		max-width: $max-width;
+		margin-bottom: 2em;
+	}
+
+	@media (min-width: $screen-md +1) {
+			& > * {
+			margin-bottom: 5em;
+		}
+	}
+}

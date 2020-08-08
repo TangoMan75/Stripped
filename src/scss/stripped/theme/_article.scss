@@ -1,0 +1,24 @@
+////
+/// Article styling
+///
+/// @version 0.1.0
+/// @group Theme
+////
+
+article {
+	border:        $border-style-default;
+	border-radius: $radius-md;
+	background:    white;
+	box-shadow:    $shadow;
+	& > header {
+		border-radius: $radius-lg $radius-lg 0 0;
+		border-bottom: $border-style-default;
+		& > h1 {
+			color: $primary;
+		}
+	}
+	& > footer {
+		border-radius: 0 0 $radius-lg $radius-lg;
+		border-top: $border-style-default;
+	}
+}
