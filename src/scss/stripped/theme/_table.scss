@@ -1,7 +1,7 @@
 ////
 /// Table styling
 ///
-/// @version 0.1.0
+/// @version 0.2.0
 /// @group Theme
 ////
 
@@ -30,7 +30,7 @@ table {
 
 	& tfoot {
 		font-size: $font-size-sm;
-		font-weight: $font-weight;
+		font-weight: $font-weight-base;
 		& td {
 			color: $matterhorn;
 		}

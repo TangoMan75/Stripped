@@ -3,12 +3,31 @@
 ///
 /// This should match most cases but feel free to change these values to match your needs.
 ///
-/// @group Variables
-/// @version 0.1.0
+/// @group   Variables
+/// @version 0.1.1
+/// @link    https://github.com/TangoMan75/Stripped
 ////
 
-$screen-xs: 291px;
-$screen-sm: 683px;
-$screen-md: 960px;
-$screen-lg: 1382px;
-$screen-xl: 1936px;
+// TangoMan Breakpoints
+//--------------------------------------------------
+
+$screen-xs: 291px !default;
+$screen-sm: 683px !default;
+$screen-md: 960px !default;
+$screen-lg: 1382px !default;
+$screen-xl: 1936px !default;
+
+// Bottstrap 3 Breakpoints
+//--------------------------------------------------
+
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+
+// Bottstrap 4 Breakpoints
+//--------------------------------------------------
+
+$screen-sm: 576px !default;
+$screen-md: 768px !default;
+$screen-lg: 992px !default;
+$screen-xl: 1200px !default;

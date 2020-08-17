@@ -2,8 +2,10 @@
 /// Radius scale
 ///
 /// Sets global radiuses values
+///
+/// @group   Mixins
 /// @version 0.1.0
-/// @group Mixins
+/// @link    https://github.com/TangoMan75/Stripped
 ////
 
 @mixin radius-scale($radius-base, $scale) {

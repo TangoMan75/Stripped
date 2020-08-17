@@ -2,8 +2,10 @@
 /// Type scale
 ///
 /// Sets global font-sizes values
+///
+/// @group   Mixins
 /// @version 0.1.0
-/// @group Mixins
+/// @link    https://github.com/TangoMan75/Stripped
 ////
 
 @mixin type-scale($font-size-base, $scale) {

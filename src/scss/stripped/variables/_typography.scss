@@ -1,8 +1,10 @@
 ////
 /// Typography
 /// Setting default typography variables for mobiles
-/// @group Variables
-/// @version 0.1.0
+///
+/// @group   Variables
+/// @version 0.2.0
+/// @link    https://github.com/TangoMan75/Stripped
 ////
 
 $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -12,7 +14,7 @@ $noto:       "Noto Sans", sans-serif;
 $roboto:     Roboto, sans-serif;
 $ubuntu:     Ubuntu, sans-serif;
 
-$font-weight: 400;
+$font-weight-base: 400;
 $line-height-base: 160%;
 
 $font-size-base: 1em;

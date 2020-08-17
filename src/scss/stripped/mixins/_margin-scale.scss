@@ -2,8 +2,10 @@
 /// Margin scale
 ///
 /// Sets global margins values
+///
+/// @group   Mixins
 /// @version 0.1.0
-/// @group Mixins
+/// @link    https://github.com/TangoMan75/Stripped
 ////
 
 @mixin margin-scale($margin-base, $scale) {
