@@ -6,9 +6,7 @@
 /// @link    https://github.com/TangoMan75/Stripped
 ////
 
-/**
- * Place a Section, or article, or aside containing a header or footer and it will be displayed as a panel.
- */
+// Place a Section, or article, or aside containing a header or footer and it will be displayed as a panel.
 @mixin panel($border-radius) {
 	border-radius: $border-radius;
 	text-align: center;

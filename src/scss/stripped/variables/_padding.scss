@@ -8,4 +8,4 @@
 /// @link    https://github.com/TangoMan75/Stripped
 ////
 
-@include padding-scale(1em, $major-second);
+@include padding-scale($font-size-base, $major-second);
