@@ -1,0 +1,15 @@
+////
+/// Wrapper
+///
+/// @group   Mixins
+/// @version 0.1.0
+/// @link    https://github.com/TangoMan75/Stripped
+////
+
+@mixin container($size) {
+    $container-width: (100% / 12 * $size);
+    width:          $container-width;
+    max-width:      $container-width;
+    margin-left:    auto;
+    margin-right:   auto;
+}
