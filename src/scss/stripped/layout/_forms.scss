@@ -27,18 +27,18 @@ input[type="time"],
 input[type="url"],
 input[type="week"],
 select {
-	display   : block;
-	height    : $margin-xxl *2.5;
-	width     : 100%;
-	padding   : $padding-xs $padding-sm;
-	margin    : $margin-xs auto;
+	display: block;
+	height:  $margin-xxl *2.5;
+	width:   100%;
+	padding: $padding-xs $padding-sm;
+	margin:  $margin-xs auto;
 }
 
 textarea {
-	width   : 100%;
-	padding : $padding-xs $padding-sm;
+	width: 100%;
+	padding: $padding-xs $padding-sm;
 	/* Disables horizontal resize */
-	resize  : vertical;
+	resize: vertical;
 }
 
 button,
@@ -48,12 +48,12 @@ button[type='submit'],
 input[type='button'],
 input[type='reset'],
 input[type='submit']{
-	border-style : none;
-	outline      : none;
-	padding      : $padding-xs $padding-xxl;
-	margin       : $margin-xxs auto;
+	border-style: none;
+	outline:      none;
+	padding:      $padding-xs $padding-xxl;
+	margin:       $margin-xxs auto;
 }
 
 fieldset * {
-	margin : auto;
+	margin: auto;
 }

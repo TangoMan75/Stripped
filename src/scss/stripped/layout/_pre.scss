@@ -9,13 +9,13 @@
  * pre layout
  */
 pre {
-	margin  : $margin-md $margin-xxl;
-	padding : $padding-md $padding-md $padding-md $padding-xxl;
-	text-align     : left;
+	margin:      $margin-md $margin-xxl;
+	padding:     $padding-md $padding-md $padding-md $padding-xxl;
+	text-align:  left;
 	/* Lines may break between any two letters. */
-	word-break   : break-all;
+	word-break:  break-all;
 	/* Allows unbreakable words to be broken. */
-	word-wrap   : break-word;
+	word-wrap:   break-word;
 	/* Allows pre to wrap overflowing text */
-	white-space : pre-wrap;
+	white-space: pre-wrap;
 }

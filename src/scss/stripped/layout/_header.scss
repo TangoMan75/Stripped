@@ -11,16 +11,16 @@
 body {
 	& div:first-of-type > header:first-of-type,
 	& > header:first-of-type {
-		display         : flex;
-		flex-direction  : column;
+		display:         flex;
+		flex-direction:  column;
 		/* Flex-box vertical alignment */
-		align-items     : center;
-		text-align      : center;
-		justify-content : space-around;
+		align-items:     center;
+		justify-content: space-around;
+		text-align:      center;
 		& > * {
 			/* Every header child has margin */
 			max-width: 99%;
-			margin : $margin-xs auto;
+			margin: $margin-xs auto;
 		}
 	}
 }

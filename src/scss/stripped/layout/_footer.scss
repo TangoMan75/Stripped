@@ -23,18 +23,18 @@ body {
  * Footer layout
  */
 body > footer:last-of-type {
-	display         : flex;
-	flex-direction  : column;
-	flex-wrap       : wrap;
-	justify-content : space-around;
-	padding         : $padding-xxl 0;
-	width           : 100%;
-	max-width       : 100%;
+	display:         flex;
+	flex-direction:  column;
+	flex-wrap:       wrap;
+	justify-content: space-around;
+	padding:         $padding-xxl 0;
+	width:           100%;
+	max-width:       100%;
 
 	> * {
 		/* Footer items margin */
-		margin  : $margin-sm;
-		padding : 0 0 0 $padding-sm;
+		margin: $margin-sm;
+		padding: 0 0 0 $padding-sm;
 		p {
 			/* Footer p layout */
 			margin: 0;
@@ -43,7 +43,7 @@ body > footer:last-of-type {
 
 	& ul {
 		/* List items layout in footer */
-		padding : 0;
-		margin  : 0;
+		padding: 0;
+		margin: 0;
 	}
 }
