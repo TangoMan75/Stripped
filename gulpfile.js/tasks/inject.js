@@ -2,7 +2,7 @@
  * Injects js and css files into html
  * 
  * @version  2.0.1
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-inject/

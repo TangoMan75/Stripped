@@ -2,7 +2,7 @@
  * Generates SASS documentation
  * 
  * @version  1.0.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  * @note     Will run synchronouly since sassdoc is not a gulp plugin
  */
 

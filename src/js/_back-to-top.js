@@ -1,7 +1,7 @@
 /**
  * Floating back to top button.
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  11:20 07/12/2016
  * @version   0.1.1
  * @requires  jQuery & Bootstrap

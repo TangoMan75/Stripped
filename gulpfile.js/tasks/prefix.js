@@ -3,7 +3,7 @@
  * 
  * @note     Attention: Autoprefixer removes embedded sourcemaps!
  * @version  1.0.1
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 /**

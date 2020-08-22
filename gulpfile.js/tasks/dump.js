@@ -2,7 +2,7 @@
  * Dumps config and plugins variables in console
  *
  * @version  1.0.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-util

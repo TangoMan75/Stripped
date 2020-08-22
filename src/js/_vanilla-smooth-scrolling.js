@@ -1,7 +1,7 @@
 /**
 * Vanilla Smooth Scrolling
 *
-* @author    Matthias Morin <matthias.morin@gmail.com>
+* @author    Matthias Morin <mat@tangoman.io>
 * @modified  19:30 27/03/2019
 * @version   0.2.1
 */

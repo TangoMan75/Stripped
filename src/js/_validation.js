@@ -1,7 +1,7 @@
 /**
  * HTML5 Validation
  * 
- * @author         Matthias Morin <matthias.morin@gmail.com>
+ * @author         Matthias Morin <mat@tangoman.io>
  * @last-modified  14:00 09/10/2017
  */
 

@@ -2,7 +2,7 @@
  * Injects ARIA roles into HTML
  *
  * @url       https://www.w3.org/TR/html-aria/
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.2
  * @modified  15:41 26/12/2016
  * @note      Doesn't require jQuery
@@ -121,7 +121,7 @@ function init() {
 /**
  * Floating back to top button.
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  11:20 07/12/2016
  * @version   0.1.1
  * @requires  jQuery & Bootstrap
@@ -165,7 +165,7 @@ $(function() {
  * Listens to all buttons with data-toggle="modal"
  * 
  * @url       http://getbootstrap.com/javascript/#modals
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.4
  * @modified  18:40 25/10/2017
  * @requires  jQuery
@@ -190,7 +190,7 @@ $(function() {
  * Bootstrap popovers initialisation
  *
  * @url       http://getbootstrap.com/javascript/#popovers
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  17:00 10/10/2017
  * @requires  jQuery
@@ -202,7 +202,7 @@ $(function() {
 /**
  * Randomise Bootstrap carousel slides
  * 
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  11:22 07/12/2016
  * @version   0.1.1
  * @requires  jQuery
@@ -225,7 +225,7 @@ $('.carousel-indicators li').each(function(){
  * Bootstrap tabs initialisation
  *
  * @url       http://getbootstrap.com/javascript/#tabs
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  18:40 25/10/2017
  * @requires  jQuery
@@ -241,7 +241,7 @@ $('.carousel-indicators li').each(function(){
  * Bootstrap tooltips initialisation
  *
  * @url       http://getbootstrap.com/javascript/#tooltips
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  15:57 08/11/2016
  * @requires  jQuery
@@ -253,7 +253,7 @@ $(function() {
 /**
  * Form inputs
  * 
- * @author         Matthias Morin <matthias.morin@gmail.com>
+ * @author         Matthias Morin <mat@tangoman.io>
  * @last-modified  14:00 09/10/2017
  */
 
@@ -382,7 +382,7 @@ function isScrolledIntoView(objElement) {
  * Magnific Popup Initialisation
  * 
  * @url       http://dimsemenov.com/plugins/magnific-popup
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  20:26 23/09/2017
  * @requires  jQuery
@@ -416,7 +416,7 @@ $(document).ready(function () {
  * Add "data-speed" attribute to ".parallax" element to set speed
  * where data-speed="1" is the fastest
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  15:57 08/11/2016
  * @version   0.1.2
  * @requires  jQuery
@@ -446,7 +446,7 @@ $(function(){
 /**
  * Reset button
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  17:00 19/09/2017
  * @version   0.1.0
  * @requires  jQuery
@@ -462,7 +462,7 @@ $(function () {
 /**
  * Smooth Scrolling
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  10:30 30/05/2017
  * @version   0.2.0
  * @requires  jQuery
@@ -482,7 +482,7 @@ $(function() {
 /**
  * HTML5 Validation
  * 
- * @author         Matthias Morin <matthias.morin@gmail.com>
+ * @author         Matthias Morin <mat@tangoman.io>
  * @last-modified  14:00 09/10/2017
  */
 

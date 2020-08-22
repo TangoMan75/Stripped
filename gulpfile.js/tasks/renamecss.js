@@ -2,7 +2,7 @@
  * Renames and moves css files
  * 
  * @version  0.1.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-rename

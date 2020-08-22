@@ -2,7 +2,7 @@
  * Magnific Popup Initialisation
  * 
  * @url       http://dimsemenov.com/plugins/magnific-popup
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  20:26 23/09/2017
  * @requires  jQuery

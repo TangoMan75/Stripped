@@ -3,7 +3,7 @@
  * Add "data-speed" attribute to ".parallax" element to set speed
  * where data-speed="1" is the fastest
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  17:00 27/01/2018
  * @version   0.1.3
  * @requires  jQuery

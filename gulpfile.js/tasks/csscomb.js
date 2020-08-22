@@ -2,7 +2,7 @@
  * Formats all CSS from both 'src' and 'dest' folders
  * 
  * @version  1.1.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-csscomb

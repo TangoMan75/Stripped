@@ -1,7 +1,7 @@
 /**
  * Reset button
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  17:00 19/09/2017
  * @version   0.1.0
  * @requires  jQuery

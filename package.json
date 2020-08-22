@@ -1,6 +1,6 @@
 {
   "name": "Stripped",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Responsive Mobile-First SASS / CSS Micro Framework Without Classes",
   "main": "gulpfile.js/index.js",
   "repository": {
@@ -19,7 +19,7 @@
     "Animations",
     "JS"
   ],
-  "author": "Matthias Morin <matthias.morin@gmail.com>",
+  "author": "Matthias Morin <mat@tangoman.io>",
   "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",

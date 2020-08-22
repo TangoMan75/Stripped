@@ -4,7 +4,7 @@
  * Listens to all buttons with data-toggle="modal"
  * 
  * @url       http://getbootstrap.com/javascript/#modals
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.4
  * @modified  18:40 25/10/2017
  * @requires  jQuery

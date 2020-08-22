@@ -1,7 +1,7 @@
 /**
  * jQuery Smooth Scrolling
  *
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @modified  10:30 30/05/2017
  * @version   0.2.0
  * @requires  jQuery

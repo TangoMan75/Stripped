@@ -2,7 +2,7 @@
  * Bootstrap tabs initialisation
  *
  * @url       http://getbootstrap.com/javascript/#tabs
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.0
  * @modified  18:40 25/10/2017
  * @requires  jQuery

@@ -2,7 +2,7 @@
  * Injects ARIA roles into HTML
  *
  * @url       https://www.w3.org/TR/html-aria/
- * @author    Matthias Morin <matthias.morin@gmail.com>
+ * @author    Matthias Morin <mat@tangoman.io>
  * @version   0.1.2
  * @modified  15:41 26/12/2016
  * @note      Doesn't require jQuery

@@ -2,7 +2,7 @@
  * Removes console.logs from javascript in 'dest' folder
  * 
  * @version  1.0.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-strip-debug

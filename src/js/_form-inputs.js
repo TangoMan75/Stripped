@@ -1,7 +1,7 @@
 /**
  * Form inputs
  * 
- * @author         Matthias Morin <matthias.morin@gmail.com>
+ * @author         Matthias Morin <mat@tangoman.io>
  * @last-modified  22:00 27/03/2019
  */
 

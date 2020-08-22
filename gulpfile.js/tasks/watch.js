@@ -2,7 +2,7 @@
  * Starts watcher on CSS, JS, IMG, and HTML files
  * 
  * @version  2.0.0
- * @author   Matthias Morin <matthias.morin@gmail.com>
+ * @author   Matthias Morin <mat@tangoman.io>
  */
 
 // https://www.npmjs.com/package/gulp-watch
